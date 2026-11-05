@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Educational Journey</title>
+<style>
+body {
+  margin: 0;
+  background-color: #f5ede5;
+  font-family: Arial;
+  color: #4a1923;
+}
+
+h1, h2, h3 {
+  font-family: Georgia;
+}
+
+/* top */
+#top {
+  width: 100%;
+  background-color: #4a1923;
+  border-spacing: 0;
+}
+
+#logo {
+  padding: 20px 40px;
+  color: white;
+  font-family: Georgia;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#menu {
+  padding: 20px 40px;
+  text-align: right;
+}
+
+#menu a {
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#menu a.now {
+  text-decoration: underline;
+}
+
+/* bottom */
+#bottom {
+  background-color: #4a1923;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  padding: 20px;
+}
+
+#bottom p {
+  margin: 0 0 6px;
+}
+
+#page {
+  min-height: 600px;
+}
+
+/* title */
+#title {
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0 5px;
+}
+
+/* timeline */
+#timeline {
+  width: 800px;
+  margin: 30px auto 60px;
+  border-collapse: collapse;
+}
+
+#timeline td {
+  padding: 7px 10px;
+  vertical-align: middle;
+}
+
+td.side {
+  width: 45%;
+}
+
+#timeline td.middle {
+  width: 20px;
+  padding: 0;
+}
+
+.bar {
+  width: 2px;
+  height: 59px;
+  background-color: #4a1923;
+  margin: 0 auto;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #f5ede5;
+  border: 2px solid #4a1923;
+  margin: 0 auto;
+}
+
+.filled {
+  background-color: #4a1923;
+}
+
+/* school boxes */
+.school {
+  width: 100%;
+  background-color: #ebc8d0;
+  border-spacing: 0;
+}
+
+.school td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.school h3 {
+  margin: 0 0 3px;
+  font-size: 17px;
+}
+
+.school p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.right {
+  text-align: right;
+}
+
+.dark {
+  background-color: #4a1923;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- top -->
+<table id="top">
+  <tr>
+    <td id="logo">My Little World</td>
+    <td id="menu">
+      <a href="index.html">HOME</a>
+      <a href="core.html">CORE OF MY LIFE</a>
+      <a href="pets.html">PETS</a>
+      <a href="companions.html">MY LITTLE COMPANIONS</a>
+      <a href="interests.html">MY INTERESTS</a>
+      <a class="now" href="education.html">MY EDUCATIONAL JOURNEY</a>
+      <a href="calendar.html">CALENDAR</a>
+    </td>
+  </tr>
+</table>
+
+<div id="page">
+<h2 id="title">My Educational Journey</h2>
+
+<!-- timeline -->
+<table id="timeline">
+  <tr>
+    <td class="side">
+        <table class="school">
+          <tr>
+            <td width="100"><img src="images/mcs.jpg" width="100" height="100" alt="Malate Catholic School"></td>
+            <td>
+              <h3>Grade School</h3>
+              <p>Malate Catholic School</p>
+            </td>
+          </tr>
+        </table>
+    </td>
+    <td class="middle">
+        <div class="bar"></div>
+        <div class="dot"></div>
+        <div class="bar"></div>
+      </td>
+    <td class="side"></td>
+  </tr>
+  <tr>
+    <td class="side"></td>
+    <td class="middle">
+        <div class="bar"></div>
+        <div class="dot"></div>
+        <div class="bar"></div>
+      </td>
+    <td class="side">
+        <table class="school right">
+          <tr>
+            <td class="right">
+              <h3>High School</h3>
+              <p>San Isidro National High School</p>
+            </td>
+            <td width="100"><img src="images/sinhs.jpg" width="100" height="100" alt="San Isidro National High School"></td>
+          </tr>
+        </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="side">
+        <table class="school">
+          <tr>
+            <td width="100"><img src="images/shs.jpg" width="100" height="100" alt="Globetek Senior High School"></td>
+            <td>
+              <h3>Senior High School</h3>
+              <p>Globetek Senior High School and Technical Training Institute</p>
+            </td>
+          </tr>
+        </table>
+    </td>
+    <td class="middle">
+        <div class="bar"></div>
+        <div class="dot"></div>
+        <div class="bar"></div>
+      </td>
+    <td class="side"></td>
+  </tr>
+  <tr>
+    <td class="side"></td>
+    <td class="middle">
+        <div class="bar"></div>
+        <div class="dot filled"></div>
+        <div class="bar"></div>
+      </td>
+    <td class="side">
+        <table class="school right dark">
+          <tr>
+            <td class="right">
+              <h3>College (Current)</h3>
+              <p>University of Makati</p>
+            </td>
+            <td width="100"><img src="images/college.jpg" width="100" height="100" alt="University of Makati"></td>
+          </tr>
+        </table>
+    </td>
+  </tr>
+</table>
+</div>
+
+<!-- bottom -->
+<div id="bottom">
+  <p>&copy; CASSANDRA NARAJA</p>
+  <p>Contact: 09082085096 | Address: 1590 Copernico St. Brgy San Isidro Makati City</p>
+</div>
+
+</body>
+</html>
